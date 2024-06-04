@@ -1,11 +1,22 @@
 *, *:before, *:after {
     box-sizing: border-box;
 }
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-    object-position: top right;
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    background: url('profile.png') center center no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    color: white;
+    filter: drop-shadow(0px 0px 8px black);
+    font-size: 46px;
 }
