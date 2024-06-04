@@ -2,4 +2,4 @@
 
 ## Deployment
 - run `npm run build`
-- push to github
+- push to GitHub
